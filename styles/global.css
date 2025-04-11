@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: Poppins, sans-serif;
+  color: #403E3B;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font: inherit;
+}
